@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, confusion_matrix, accuracy_score
 
-
+#Giai đoạn 1
 # Load the California housing dataset
 data = fetch_california_housing()
 df = pd.DataFrame(data.data, columns=data.feature_names)
